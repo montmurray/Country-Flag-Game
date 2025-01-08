@@ -1,13 +1,13 @@
 //
-//  SwiftUIView.swift
+//  CustomButton.swift
 //  Country Flag Game
 //
-//  Created by Tessa Murray on 1/7/25.
+//  Created by Tessa Murray on 1/8/25.
 //
 
 import SwiftUI
 
-struct CustomButton {
+struct CustomButton: View {
     var text: String
     var background: Color = .yellow
     var body: some View {
@@ -19,4 +19,8 @@ struct CustomButton {
             .cornerRadius(25)
             .shadow(radius: 10)
     }
+}
+
+#Preview {
+    CustomButton(text: "Next")
 }

@@ -48,8 +48,19 @@ struct Data {
 
         "Ukraine",
 
-        "United States"
+        "United States",
 
+        // additions
+        
+        "Belgium",
+        
+        "Morocco",
+        
+        "Brazil",
+        
+        "Thailand",
+        
+        "Ireland"
     ]
 
 }
